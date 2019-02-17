@@ -17,7 +17,17 @@ for(var i = 0; i < navlinks.length; i++) {
 }
 
 
-$(window).scroll(function(){
-    $(".arrow").css("opacity", 1 - $(window).scrollTop() / 250); 
-  //250 is fade pixels
-  });
+$(window).on("scroll",function(){
+
+let positionY = $(this).scrollTop();
+console.log(positionY);
+
+
+if(positionY < 530){
+    $(".arrow").css("opacity", 1);
+}
+if(positionY > 550){
+    $(".arrow").css("opacity", 0);
+}
+
+})

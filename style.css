@@ -113,8 +113,8 @@ h6{
 img{
     z-index: 2;
     position: absolute;
-    right: 10%;
-    top: 24%;
+    right: 6vmax;
+    top: 2vmax;
     width: 100px;
     height: 320px
 }
@@ -405,4 +405,188 @@ height: 60px;
 -webkit-animation: bounce 2s infinite;
 animation: bounce 2s infinite;
 }
-  
+
+
+
+@media screen and (max-width: 1280px){
+
+    #nav-icon{
+        display: none;
+    }
+
+    img{
+        z-index: 2;
+        position: absolute;
+        right: 18vmax;
+        top: 180vmax;
+        width: 80px;
+        height: 250px
+    }
+
+    #quote{
+        position: absolute;
+        color: #324553;
+        font-family: acumin-pro, sans-serif;
+        font-weight: 100;
+        font-style: italic;
+        top: 90px;
+        }
+
+   #title{
+       font-size: 25px;
+       position: absolute;
+       top: 50px;
+   }
+
+
+    .fa-tumblr{
+        position: absolute;
+        left: 10%;
+    }
+    
+    .fa-tumblr:hover{
+        color: #324553;
+    }
+    
+    .fa-twitter{
+        position: absolute;
+        left: 27%;
+    }
+    
+    .fa-twitter:hover{
+        color: #324553;
+    }
+    
+    .fa-github{
+        position: absolute;
+        left: 45%;
+    }
+    
+    .fa-github:hover{
+        color: #324553;
+    }
+    
+    .fa-linkedin-in{
+        position: absolute;
+        left: 64%;
+    }
+    
+    .fa-linkedin-in:hover{
+        color: #324553
+    }
+    
+    .fa-spotify{
+        position: absolute;
+        left: 80%;
+    }
+    
+    .fa-spotify:hover{
+        color: #324553;
+    }
+
+    #home{
+        position: relative;
+        top: 50px;
+        display: flex;
+        justify-content: space-;
+        width: 90vw;
+        height: 400px;
+        background-color: #ffffff;
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        }
+        
+        #about{
+        position: absolute;
+        top: 800px;
+        display: flex;
+        justify-content: center;
+        width: 90vw;
+        height: 400px;
+        background-color: #ffffff;
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        }
+        
+        #blog{
+        position: absolute;
+        top: 1550px;
+        display: flex;
+        justify-content: center;
+        width: 90vw;
+        height: 400px;
+        background-color: #ffffff;
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        }
+        
+        #contact{
+        position: absolute;
+        top: 2250px;
+        display: flex;
+        justify-content: center;
+        width: 90vw;
+        height: 400px;
+        background-color: #ffffff;
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        margin-bottom: 100px;
+        }
+
+    .footer{
+        display: inline-block;
+        position: absolute;
+        top: 2750px;
+        left: 37%;
+        color: #ffffff;
+        font-family: acumin-pro, sans-serif;
+        font-weight: 100;
+        font-style: italic;
+        }
+
+        h2{
+            position: absolute;
+            color: black;
+            top: 100px;
+            left: 10%;
+            font-size: 25px;
+        }
+
+        h3{
+            position: absolute;
+            color: black;
+            top: 140px;
+            left: 10%;
+            font-size: 25px;
+        }
+        
+        h4{
+            position: absolute;
+            color: black;
+            top: 180px;
+            left: 10%;
+            font-size: 25px;
+        }
+        
+        h5{
+            position: absolute;
+            color: black;
+            top: 220px;
+            left: 10%;
+            font-size: 25px;
+        }
+
+        h6{
+            position: absolute;
+            color: black;
+            top: 270px;
+            left: 10%;
+            font-size: 25px;
+        }
+
+        #mail{
+            position: absolute;
+            font-size: 20px;
+            left: 10%;
+        }
+}

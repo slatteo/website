@@ -16,11 +16,8 @@ for(var i = 0; i < navlinks.length; i++) {
   });
 }
 
-// Bouncing arrow bottom of full screen
-// Different arrow choices from Font Awesome
-// Fades away as you scroll down
 
 $(window).scroll(function(){
-    $(".arrow").css("opacity", 1 - $(window).scrollTop() / 500); 
+    $(".arrow").css("opacity", 1 - $(window).scrollTop() / 250); 
   //250 is fade pixels
   });

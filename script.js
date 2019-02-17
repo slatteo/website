@@ -15,3 +15,12 @@ for(var i = 0; i < navlinks.length; i++) {
       toggleNav();
   });
 }
+
+// Bouncing arrow bottom of full screen
+// Different arrow choices from Font Awesome
+// Fades away as you scroll down
+
+$(window).scroll(function(){
+    $(".arrow").css("opacity", 1 - $(window).scrollTop() / 500); 
+  //250 is fade pixels
+  });

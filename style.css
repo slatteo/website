@@ -256,21 +256,20 @@ transform: rotate(90deg);
 }
 
 a{
-   
-    color: inherit;
-    text-decoration: none;
+color: inherit;
+text-decoration: none;
 
 }
 
 i{
-    bottom: 20px;
-    text-decoration: none;
+bottom: 20px;
+text-decoration: none;
 }
 
 
 .fa-tumblr{
     position: absolute;
-    left: 40%;
+    left: 39%;
 }
 
 .fa-tumblr:hover{
@@ -279,7 +278,7 @@ i{
 
 .fa-twitter{
     position: absolute;
-    left: 45%;
+    left: 44%;
 }
 
 .fa-twitter:hover{
@@ -288,7 +287,7 @@ i{
 
 .fa-github{
     position: absolute;
-    left: 50%;
+    left: 49%;
 }
 
 .fa-github:hover{
@@ -297,7 +296,7 @@ i{
 
 .fa-linkedin-in{
     position: absolute;
-    left: 60%;
+    left: 59%;
 }
 
 .fa-linkedin-in:hover{
@@ -306,7 +305,7 @@ i{
 
 .fa-spotify{
     position: absolute;
-    left: 55%;
+    left: 54%;
 }
 
 .fa-spotify:hover{
@@ -390,11 +389,11 @@ color: #fff;
 
 .arrow {
 position: absolute;
-bottom: 0;
-left: 51%;
+top: 85vh;
+right: 48vw;
 margin-left: -20px;
 width: 40px;
-height: 60px; 
+height: 65px; 
 }
 
 .bounce {
